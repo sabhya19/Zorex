@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-  width: 350px;
+  width: 500px;
   margin: 100px auto;
   background: #ecebeb;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -15,7 +15,7 @@ body {
 h1 {
   margin: 0;
   padding: 10px 20px;
-  background: rgb(72, 115, 254);
+  background: rgb(100, 56, 202);
   color: white;
   text-transform: uppercase;
 }
@@ -24,39 +24,7 @@ h1 {
   float: right;
 }
 
-ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-}
 
-.delete {
-  background: rgb(190, 0, 0);
-  color: white;
-  width: 0;
-  height: 40px;
-  display: inline-block;
-  text-align: center;
-  margin-right: 15px;
-  opacity: 0;
-  transition: 0.1s linear;
-}
-
-li {
-  font-size: 18px;
-  background: white;
-  height: 40px;
-  line-height: 40px;
-}
-
-li:hover .delete {
-  opacity: 1.0;
-  width: 40px;
-}
-
-li:nth-child(2n) {
-  background: #ecebeb;
-}
 
 input {
   font-family: "Ubuntu";
@@ -81,7 +49,4 @@ input:focus {
   display: none;
 }
 
-.striked {
-  text-decoration: line-through;
-  color: grey;
-}
+
